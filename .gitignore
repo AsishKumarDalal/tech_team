@@ -1,0 +1,75 @@
+# Environment & Secret files (CRITICAL SECURITY)
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# SQLite & LangGraph Checkpoint Databases
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Logs & Temporary files
+*.log
+logs/
+tmp/
+*.tmp
+*.temp
+
+# IDE & Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.claude/
+.gemini/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node / Web dependencies (if subprojects use Node/React/Next.js)
+node_modules/
+.next/
+out/
